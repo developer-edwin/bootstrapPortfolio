@@ -20,7 +20,11 @@ header {
 
 #headerInfo {
   outline: 2px solid red;
-  padding: 0px 0px;
+  padding: 0 0;
+}
+
+.card {
+  width: 31%;
 }
 
 .about-me {
