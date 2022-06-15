@@ -10,13 +10,17 @@ header {
 }
 
 #headerData {
-  outline: 2px solid red;
-  height: 100vh;
+  height: 70vh;
 }
 
 #headerTitle2 {
   color: #35b37e;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
+}
+
+#headerInfo {
+  outline: 2px solid red;
+  padding: 0px 0px;
 }
 
 .about-me {
