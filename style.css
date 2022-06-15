@@ -1,0 +1,17 @@
+header {
+    background-image: url('./image/Header-llustration-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.links {
+    color: #344563;
+}
+
+.about-me {
+    background-image: url('./image/illustration about me desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
