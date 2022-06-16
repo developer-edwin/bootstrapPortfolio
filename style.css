@@ -32,7 +32,6 @@ header {
 #header-links {
   justify-content: center;
   align-items: baseline;
-  /* gap: 10px; */
   list-style-type: none;
 }
 
