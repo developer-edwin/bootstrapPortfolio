@@ -78,81 +78,111 @@
       <h2 class="text-center">My Recent Works</h2>
       <div class="grid container-fluid p-5">
         <div class="row">
-          <div class="col p-5">
-            <img src="./image/Card-multi.png" alt="Recent work card">
+          <div class="col-4 p-5">
+            <img src="./image/Card-multi.png" alt="Recent work card" />
           </div>
-          <div class="col p-5">
-            <img src="./image/Card-multi.png" alt="Recent work card">
+          <div class="col-4 p-5">
+            <img src="./image/Card-multi.png" alt="Recent work card" />
           </div>
-          <div class="col p-5">
-            <img src="./image/Card-multi.png" alt="Recent work card">
+          <div class="col-4 p-5">
+            <img src="./image/Card-multi.png" alt="Recent work card" />
           </div>
-        </div>
-        <div class="row">
-          <div class="col p-5">
-            <img src="./image/Card-multi.png" alt="Recent work card">
+          <div class="col-4 p-5">
+            <img src="./image/Card-multi.png" alt="Recent work card" />
           </div>
-          <div class="col p-5">
-            <img src="./image/Card-multi.png" alt="Recent work card">
+          <div class="col-4 p-5">
+            <img src="./image/Card-multi.png" alt="Recent work card" />
           </div>
-          <div class="col p-5">
-            <img src="./image/Card-multi.png" alt="Recent work card">
+          <div class="col-4 p-5">
+            <img src="./image/Card-multi.png" alt="Recent work card" />
           </div>
         </div>
       </div>
     </section>
-    <section id="about-me">
-      <div class="d-flex ">
-        <div class="mt-5 pt-5">
-          <img
+    <section id="about-me" class="row">
+      <div class="col-3">
+        <img
           src="./image/illustration-about-me-2-desktop.svg"
-          alt="back ground image" class="mt-5 pt-5"
+          alt="back ground image"
+          class="mt-5 pt-5"
         />
-        </div>
-        <div class="col p-5 m-5 w-25 text-about">
-          <h2 class="text-center">About me</h2>
-          <p class="w-75">
-            I can help you build a product&#8218; feature or website. Look through
-            some of my work and experience&#33; If you like what you see and have
-            a project you need coded&#8218; don&#x27;t hesitate to contact me.
-          </p>
-          <button type="button">Get My Resume</button>
-        </div>
-      </div>     
-      
+      </div>
+      <div class="col-6 text-center">
+        <h2>About me</h2>
+        <p>
+          I can help you build a product&#8218; feature or website. Look through
+          some of my work and experience&#33; If you like what you see and have
+          a project you need coded&#8218; don&#x27;t hesitate to contact me.
+        </p>
+        <button
+          type="button"
+          class="border border-success bg-success text-white rounded"
+        >
+          Get My Resume
+        </button>
+      </div>
+      <div class="col-3"></div>
     </section>
     <section>
       <div class="grid container-fluid p-5">
         <div class="row">
           <div class="col">
-            <img src="./image/Card-Works-Inactive.png" alt="">
+            <img src="./image/Card-Works-Inactive.png" alt="" />
           </div>
           <div class="col">
-            <img src="./image/Card-Works-Inactive(1).png" alt="">
+            <img src="./image/Card-Works-Inactive(1).png" alt="" />
           </div>
           <div class="col">
-            <img src="./image/Card-Works.-nactive(2).png" alt="">
+            <img src="./image/Card-Works.-nactive(2).png" alt="" />
           </div>
         </div>
-
       </div>
     </section>
     <footer>
-      <div class="grid container-fluid p-5">
-        <div class="row">
-          <div class="col">
-            <p>
-              I&#x27;m always interested in hearing about new projects&#8218; so
-              if you&#x27;d like to chat please get in touch.
-            </p>
-          </div>
-          <div class="col">
-            <form action="" class="form-group d-flex flex-column m-5">
-              <input type="text" class="m-2 p-2"/>
-              <input type="email" class="m-2 p-2"/>
-              <textarea name="" id="" cols="30" rows="10" class="m-2 p-2"></textarea>
-            </form>
-          </div>
+      <div class="grid container-fluid p-5 row">
+        <div class="col-5 fw-bolder align-text-bottom p-5">
+          <p class="pt-5 fs-4 text-justify">
+            I&#x27;m always interested in hearing about new projects&#8218; so
+            if you&#x27;d like to chat please get in touch.
+          </p>
+        </div>
+        <div class="col-7">
+          <form action="">
+            <div class="row">
+              <input
+                type="text"
+                class="border p-1 m-1 border-info col rounded"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                class="border p-1 m-1 border-info col rounded"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="row">
+              <input
+                type="email"
+                class="m-1 border border-info col rounded"
+                placeholder="Email address"
+              />
+            </div>
+            <div class="row">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="m-1 border border-info w-100 col rounded"
+                placeholder="Type something"
+              ></textarea>
+            </div>
+            <div class="row">
+              <button class="w-auto border border-success bg-success rounded">
+                Get in touch
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
